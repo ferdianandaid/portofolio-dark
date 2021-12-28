@@ -1,0 +1,114 @@
+:root {
+				--mainColor : #052145;
+				--secondaryColor : #0F3260;
+				--acsentColor : #1A73E8;
+}
+
+html {
+				scroll-behavior: smooth;
+}
+
+body {
+				background-color: var(--mainColor);
+				color: #fff;
+				min-height: 500px;
+				font-family: 'Inter', sans-serif;
+}
+
+#hero {
+				min-height: auto;
+				margin: auto;
+				padding-top: 3rem;
+}
+
+.color-acsent {
+				color: var(--acsentColor);
+				font-size: 2.3rem;
+}
+
+.btn-acsent {
+				background-color: var(--acsentColor);
+}
+
+.bg-acsent {
+				background-color: var(--acsentColor);
+}
+
+.img-center {
+				margin: auto;
+  			width: 100%;
+}
+
+#about {
+				padding-top: 4rem;
+				background-color: var(--secondaryColor);
+}
+
+hr {
+				margin: 0 auto;
+				width: 30%;
+				padding: 1.2px;
+				color: var(--acsentColor);
+				margin-bottom: 2.4rem;
+				opacity: 100%;
+}
+
+h1 {
+				font-size: 2.2rem;
+				opacity: none;
+				font-weight: bold;
+}
+
+#about p {
+				letter-spacing: 1.4px;
+}
+
+.card-skills {
+				background-color: var(--acsentColor);
+				margin: 10px 0 10px;
+			 
+}
+
+#skills {				
+				margin-bottom: 4rem;
+				padding-top: 4rem;
+}
+
+#skills img {
+				display: block;
+				width: 20%;
+}
+
+#skills img:hover {
+				transform: scale(1.1);
+}
+
+#project {
+				padding-top: 4rem;
+				background-color: var(--secondaryColor);
+}
+
+#project .card-body {
+				background-color: var(--acsentColor);
+}
+
+#project .card {
+				background-color: var(--acsentColor);
+}
+
+#project .btn-secondary {
+				background-color: var(-secondaryColor); ! important
+}
+
+#project h4 {
+				font-weight: bold;
+}
+
+#contact {
+				padding-top: 4rem;
+}
+
+footer {
+				padding-top: 4rem;
+				background-color: var(--secondaryColor);
+}
